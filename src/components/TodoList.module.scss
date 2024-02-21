@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+
+	.form {
+		padding-block: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+
+		input {
+			width: 200px;
+			height: 40px;
+			padding: 0.6em 1.2em;
+			border: 1px solid transparent;
+
+			border-radius: 10px;
+			cursor: pointer;
+			transition: border-color 0.25s;
+		}
+	}
+
+	.todolist {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		.todoitem {
+			width: 500px;
+			padding-inline: 20px;
+			padding-block: 10px;
+			background-color: blueviolet;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-radius: 10px;
+			.dataitem {
+				display: flex;
+				gap: 40px;
+			}
+			.buttons {
+				display: flex;
+				gap: 10px;
+			}
+			button {
+				padding: 0.3em 1em;
+			}
+		}
+	}
+}
